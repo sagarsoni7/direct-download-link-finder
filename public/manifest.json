@@ -1,0 +1,19 @@
+{
+  "name": "Direct Download Link Finder",
+  "version": "1.0",
+  "description": "Helps you find direct file download links",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "128": "icon128.png"
+  }
+}

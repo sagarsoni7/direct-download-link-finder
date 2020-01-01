@@ -1,0 +1,41 @@
+.collapsible-header{
+    font-weight: normal;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: calc(8px + 2vmin);
+color: #ffffff;
+list-style-type: none;
+box-sizing: inherit;
+display: flex;
+cursor: pointer;
+-webkit-tap-highlight-color: transparent;
+line-height: 1.5;
+padding: 1rem;
+background-color: #282c34;
+border-bottom: 1px solid #1D2026;
+outline: 0;
+}
+
+.collapsible-body{
+border-bottom: 1px solid #1D2026;
+}
+
+.active{
+    background-color: #282c34;
+    border-bottom: 1px solid #1D2026;
+    color: #ffffff;
+}
+
+.collapsible-header:focus{
+    background-color: #1D2026;
+}
+
+.keyboard-focused{
+    background-color: #1D2026;
+}
+
+    .fileNameInput{
+        color: #ffffff !important;
+    }  
