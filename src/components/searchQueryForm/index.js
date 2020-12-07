@@ -8,12 +8,14 @@ import {
   TextInput,
   Button,
 } from "react-materialize";
-
+//Page styles
 import "./index.css";
-
+//Form data
 import fileExtensions from "./data/fileExtensions";
+//Actions
+import { performSearch } from "./actions";
 
-function SearchQueryForm({ performSearch }) {
+function SearchQueryForm() {
   const [fileName, setFileName] = useState("");
   const [fileFormat, setFileFormat] = useState([]);
 
