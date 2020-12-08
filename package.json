@@ -10,8 +10,7 @@
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.11.0",
     "react-materialize": "^3.4.1",
-    "react-scripts": "3.2.0",
-    "react-scrollbars-custom": "^4.0.21"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
