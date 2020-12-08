@@ -3,7 +3,7 @@ import SearchQueryFrom from "./components/searchQueryForm";
 import "./App.css";
 
 import { Scrollbars } from "react-custom-scrollbars";
-import logo from "./assets/img/logo.png";
+// import logo from "./assets/img/logo.png";
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
       )}
     >
       <div className="container">
-        <div className="row">
+        {/* <div className="row">
           <img alt="logo" src={logo} height="80" />
-        </div>
+        </div> */}
         <SearchQueryFrom />
       </div>
     </Scrollbars>
