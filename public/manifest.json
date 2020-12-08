@@ -1,6 +1,6 @@
 {
   "name": "Direct Download Link Finder",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Helps you find direct file download links",
   "manifest_version": 2,
   "browser_action": {
